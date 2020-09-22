@@ -4,9 +4,115 @@
     <meta charset="utf-8">
     <title>framework-12</title>
     <link rel="stylesheet" href="./css/framework-12bool.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
   </head>
+
   <body>
 
+    <header>
+      <h1>Personal Grid 12</h1>
+      <div class="container">
+        <div class="col-6 padding-0">
+          <div class="box">Logo</div>
+        </div>
+
+        <div class="col-6 padding-0">
+          <div class="box">Main Menù</div>
+        </div>
+
+        <div class="col-12 padding-0">
+          <div class="box">Navbar</div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="col-12 padding-0">
+          <div class="box">Jumbotron</div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="col-4">
+          <div class="box">Articles</div>
+        </div>
+        <div class="col-4">
+          <div class="box">Articles</div>
+        </div>
+        <div class="col-4">
+          <div class="box">Articles</div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="col-4">
+          <div class="box">colonna</div>
+        </div>
+
+        <div class="col-4">
+          <div class="box">colonna</div>
+        </div>
+
+        <div class="col-4">
+          <div class="box">colonna</div>
+        </div>
+      </div>
+
+      <h2>Nested Columns</h2>
+      <div class="container">
+        <div class="col-6 padding-0">
+          <div class="container">
+            <div class="col-1 padding-0">
+              <div class="box">1 col</div>
+            </div>
+            <div class="col-2 padding-0">
+              <div class="box">2 col</div>
+            </div>
+            <div class="col-2 padding-0">
+              <div class="box">2 col</div>
+            </div>
+            <div class="col-12 padding-0">
+              <div class="box">8 col</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 padding-0">
+          <div class="box">6 col</div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <h2>Offset Columns</h2>
+      <div class="container">
+        <!-- Col 8 Offset 2 -->
+        <div class="col-8 offset-2">
+          <div class="box">footer</div>
+        </div>
+      </div>
+      <div class="container">
+        <!-- Col 4 Offset 4 Col 4 -->
+        <div class="col-3">
+          <div class="box">3 col</div>
+        </div>
+        <div class="col-3">
+          <div class="box">3 col</div>
+        </div>
+        <div class="offset-6">
+          <div class="box">6 col</div>
+        </div>
+      </div>
+
+      <div class="container">
+        <!-- Col 6 Offset 6 -->
+        <div class="col-6 offset-6">
+          <div class="box">6 col</div>
+        </div>
+      </div>
+    </footer>
+
   </body>
-</html>
+  </html>
